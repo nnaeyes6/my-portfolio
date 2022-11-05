@@ -26,21 +26,17 @@ class MyApp extends StatelessWidget {
             primaryColorDark: Colors.black12,
             primarySwatch: Colors.blueGrey,
             fontFamily: 'Rubik'),
-        home: LanguageBuilder(
-          defaultLanguage: 'en',
-          textsMap: const {},
-          child: AnimatedSplashScreen(
-              duration: 2000,
-              splash: Image.asset(
-                'images/dart.png',
-                height: 600,
-              ),
-              nextScreen: const ResponsiveLayout(
-                mobileScreenLayout: MobileScreenLayout(),
-                webScreenLayout: WebscreenLayout(),
-              ),
-              splashTransition: SplashTransition.fadeTransition,
-              backgroundColor: const Color(0xff0d0d2b)),
-        ));
+        home: AnimatedSplashScreen(
+            duration: 2000,
+            splash: Image.asset(
+              'images/dart.png',
+              height: 600,
+            ),
+            nextScreen: const ResponsiveLayout(
+              mobileScreenLayout: MobileScreenLayout(),
+              webScreenLayout: WebscreenLayout(),
+            ),
+            splashTransition: SplashTransition.fadeTransition,
+            backgroundColor: const Color(0xff0d0d2b)));
   }
 }
