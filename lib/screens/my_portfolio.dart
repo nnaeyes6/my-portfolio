@@ -120,29 +120,71 @@ class _MyPortfolioScreenState extends State<MyPortfolioScreen>
                     rotateMode: RotateMode.allRotate,
                     origin: const Offset(0, 0),
                     children: [
-                      Image.asset(
-                        'images/js.png',
-                        height: 100,
+                      InkWell(
+                        onTap: () {
+                          _launchURL(
+                            'www.javascript.com/',
+                          );
+                        },
+                        child: Image.asset(
+                          'images/js.png',
+                          height: 100,
+                        ),
                       ),
-                      Image.asset(
-                        'images/git_logo.png',
-                        height: 100,
+                      InkWell(
+                        onTap: () {
+                          _launchURL(
+                            'www.github.com/',
+                          );
+                        },
+                        child: Image.asset(
+                          'images/git_logo.png',
+                          height: 100,
+                        ),
                       ),
-                      Image.asset(
-                        'images/notion.png',
-                        height: 80,
+                      InkWell(
+                        onTap: () {
+                          _launchURL(
+                            'www.notion.so/',
+                          );
+                        },
+                        child: Image.asset(
+                          'images/notion.png',
+                          height: 80,
+                        ),
                       ),
-                      Image.asset(
-                        'images/firebase.png',
-                        height: 100,
+                      InkWell(
+                        onTap: () {
+                          _launchURL(
+                            'www.firebase.google.com/',
+                          );
+                        },
+                        child: Image.asset(
+                          'images/firebase.png',
+                          height: 100,
+                        ),
                       ),
-                      Image.asset(
-                        'images/dart.png',
-                        height: 100,
+                      InkWell(
+                        onTap: () {
+                          _launchURL(
+                            'www.dart.dev/',
+                          );
+                        },
+                        child: Image.asset(
+                          'images/dart.png',
+                          height: 100,
+                        ),
                       ),
-                      Image.asset(
-                        'images/flutter-icon.png',
-                        height: 100,
+                      InkWell(
+                        onTap: () {
+                          _launchURL(
+                            'www.flutter.dev/',
+                          );
+                        },
+                        child: Image.asset(
+                          'images/flutter-icon.png',
+                          height: 100,
+                        ),
                       ),
                     ],
                   ),
