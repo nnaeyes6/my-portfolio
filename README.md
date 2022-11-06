@@ -25,7 +25,8 @@ samples, guidance on mobile development, and a full API reference.
 �
 �
 
-#####  click this apk link to view app https://appetize.io/app/sh3ubskbrapevs2qv2zw7e4fpm?device=pixel6&osVersion=12.0&scale=75
+#####  click this link to view app at appetizer.io https://appetize.io/app/sh3ubskbrapevs2qv2zw7e4fpm?device=pixel6&osVersion=12.0&scale=75
+##### this is the apk link https://drive.google.com/drive/folders/1BwMPTPOIBu-IGV48nzFWBXMs-4wMHUxG
 
 
 
